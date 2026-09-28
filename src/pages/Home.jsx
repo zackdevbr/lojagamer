@@ -11,7 +11,7 @@ const Home = () => {
 
   return (
     <main className="px-[5%] mt-10 mb-16 flex-grow">
-      <h2 className="titulo text-4xl text-[#95ff00] text-center py-6 font-bold uppercase">Produtos em Destaque</h2>
+      <h2 className="titulo text-4xl text-center py-6 font-bold">Produtos em Destaque</h2>
 
       <section className="grid grid-cols-[repeat(auto-fit,minmax(250px,1fr))] gap-6">
         {games.map((game)=>(

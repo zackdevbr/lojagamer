@@ -11,6 +11,16 @@
     letter-spacing: 10px;
     animation: acender 0.5 forwards;
 }
+
+.titulo{
+    background-image: linear-gradient(to right, #052e16, #95ff00, #052e16);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: 700;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
 @keyframes acender {
     to{
         color:var(--text-color);
