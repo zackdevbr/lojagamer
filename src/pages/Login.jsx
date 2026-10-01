@@ -55,7 +55,7 @@ const Login = () => {
           {/* Botão com o mesmo gradiente e efeito dos cards */}
           <button
             type="submit"
-            className="bg-gradient-to-r from-[#95ff00] to-green-800 w-[75%] py-3.5 px-4 rounded-[20px] text-lg border-none cursor-pointer font-semibold transition-transform hover:bg-green-800 hover:scale-105">
+            className="bg-gradient-to-r from-[#95ff00] to-green-800 w-[100%] py-3.5 px-4 rounded-[20px] text-lg border-none cursor-pointer font-semibold transition-transform hover:bg-green-800 hover:scale-105">
             Entrar
           </button>
         </form>
